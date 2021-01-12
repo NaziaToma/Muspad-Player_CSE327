@@ -185,7 +185,6 @@ class Player(tk.Frame):
 		self.v = self.volume.get()
 		mixer.music.set_volume(self.v / 10)
 
-# ----------------------------- Main -------------------------------------------
 
 root = tk.Tk()
 root.geometry('900x600')
